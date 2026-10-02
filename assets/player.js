@@ -84,7 +84,10 @@ var Carbon;
                 let isPlaylist = el.type === 'application/x-mpegURL';
                 let isAccelerator = el.src.includes('accelerator.net');
                 let canPlayNatively = this.head.canPlayType(el.type);
-                if (isPlaylist && (!canPlayNatively || (isAndroid && (isAudio || isAccelerator)))) {
+                // Prefer the bundled MSE player when supported. Some browsers
+                // report native HLS support but stall on static hosted streams.
+                // Browsers without MSE still use the native source element.
+                if (isPlaylist && window.Hls && Hls.isSupported()) {
                     if (!this.hls && window.Hls && Hls.isSupported()) {
                         var controller = new Hls({
                             capLevelToPlayerSize: true,
