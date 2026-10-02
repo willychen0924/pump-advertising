@@ -1,0 +1,279 @@
+﻿/* imported: '/styles/options/colorScheme.scss */
+
+body {
+  background: #1a1a1a;
+  color: #f2f2f2;
+}
+#curtains {
+  background: #1a1a1a;
+}
+#curtains .coverContent.light {
+  color: #f2f2f2;
+}
+#curtains .coverContent.dark {
+  color: #f2f2f2;
+}
+#curtains .coverContent.light ~ .scrollDown svg {
+  stroke: #f2f2f2;
+}
+#curtains .coverContent.dark ~ .scrollDown svg {
+  stroke: #f2f2f2;
+}
+.navToggle {
+  fill: #f2f2f2;
+  stroke: #f2f2f2;
+  color: #f2f2f2;
+}
+.navToggle.underCover {
+  fill: #f2f2f2;
+  stroke: #f2f2f2;
+  color: #f2f2f2;
+}
+.guts {
+  background: #1a1a1a;
+}
+.about .resume:hover::after {
+  background: #f2f2f2;
+}
+.coverDivider {
+  stroke: #f2f2f2;
+}
+.noThumb {
+  background: #f2f2f21a;
+}
+hr {
+  border-bottom: 1px solid #f2f2f226;
+}
+h4 {
+  color: #f2f2f280;
+}
+a {
+  color: #f2f2f2;
+  border-bottom: 1px solid #f2f2f24c;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+a:hover {
+  border-bottom: 1px solid #f2f2f299;
+}
+carbon-caption a {
+  color: #f2f2f280;
+  border-bottom: 1px solid #f2f2f240;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+carbon-caption a:hover {
+  border-bottom: 1px solid #f2f2f280;
+}
+h2 a {
+  border-bottom: 1px solid #f2f2f200;
+}
+h2 a:hover {
+  border-bottom: 1px solid #f2f2f280;
+}
+.private {
+  background: #242424;
+}
+#unlockBlock .field::before {
+  color: #f2f2f21a;
+}
+.thumb:hover .line:after {
+  background: #f2f2f24c;
+}
+.thumb.accented:before {
+  background: #a4a7ab;
+}
+.thumb.below.accented:hover .thumbImage:before {
+  background: #a4a7ab;
+}
+carbon-text.quote {
+  border-left: 1px solid #f2f2f24c;
+}
+carbon-caption {
+  color: #f2f2f280;
+}
+carbon-image > img {
+  background: #f2f2f21a;
+}
+carbon-image > img.loaded {
+  background: none;
+}
+#zoomer.open {
+  background: #1a1a1ae6;
+}
+carbon-paginator svg {
+  stroke: #f2f2f24c;
+}
+carbon-paginator a {
+  -webkit-transition: color 0.2s ease, stroke 0.2s ease;
+  transition: color 0.2s ease, stroke 0.2s ease;
+}
+carbon-paginator a .dem {
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+carbon-paginator a:hover .dem {
+  color: #a4a7ab80;
+}
+carbon-paginator a:hover svg {
+  stroke: #a4a7ab80;
+}
+carbon-paginator a:hover {
+  color: #a4a7ab;
+}
+.block .description p {
+  color: #f2f2f280;
+}
+.block .title {
+  color: #a4a7ab;
+}
+.navList {
+  background: #a4a7abf2;
+}
+.navList a:hover {
+  border-bottom: 1px solid #f2f2f299;
+}
+.navList a {
+  color: #f2f2f2;
+  border-bottom: 1px solid #f2f2f200;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+.active .navToggle {
+  fill: #f2f2f2 !important;
+  stroke: #f2f2f2 !important;
+  color: #f2f2f2 !important;
+}
+#links {
+  border-top: 1px solid #f2f2f226;
+  border-bottom: 1px solid #f2f2f226;
+}
+#availability .status {
+  border-bottom: 1px solid #f2f2f226;
+}
+.contact .guts > div:first-child {
+  background: #f2f2f208;
+}
+carbon-branding a {
+  border-bottom: 1px solid #f2f2f200;
+  -webkit-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+carbon-branding a:hover {
+  border-bottom: 1px solid #f2f2f24c;
+}
+form input,
+form textarea {
+  background: #f2f2f205;
+  border-bottom: 1px solid #f2f2f233;
+  color: #f2f2f2;
+  -webkit-transition: background-color 0.2s ease, border 0.1s ease;
+  transition: background-color 0.2s ease, border 0.1s ease;
+}
+.field.focused input,
+.field.focused textarea {
+  border-bottom-color: #a4a7ab;
+}
+button {
+  color: #f2f2f2;
+  background: #a4a7ab;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: background-color 0.2s ease, padding 0.2s ease;
+  transition: background-color 0.2s ease, padding 0.2s ease;
+}
+button:hover {
+  background: #afb2b5;
+}
+.setup button,
+.invalid button {
+  background: #a4a7ab80;
+}
+.setup button:hover,
+.invalid button:hover {
+  background: #a4a7ab80;
+}
+.setup.valid button {
+  background: #a4a7ab;
+}
+.setup.valid button:hover {
+  background: #afb2b5;
+}
+.confirmedGuts::before,
+#requestAccessBlock .formSent::before {
+  color: #f2f2f2;
+  background: #a4a7ab;
+}
+::placeholder {
+  color: #f2f2f233;
+  -webkit-font-smoothing: antialiased;
+}
+.focused ::placeholder {
+  color: #f2f2f280;
+  -webkit-font-smoothing: antialiased;
+}
+.dem {
+  color: #f2f2f280;
+}
+carbon-player.audio .control {
+  background: #a4a7ab;
+}
+carbon-player.audio .control:hover {
+  background: #afb2b5;
+}
+carbon-player.audio.loading .control:hover {
+  background: #afb2b5;
+}
+carbon-waveform > .bar.fill {
+  background: #a4a7ab;
+}
+carbon-player.audio.played time.current {
+  color: #a4a7ab;
+}
+carbon-player.audio.ended time.total {
+  color: #a4a7ab;
+}
+carbon-player carbon-scrubber > .track > .playedBar {
+  background: #a4a7ab;
+}
+carbon-player.video .control {
+  background: rgba(26, 26, 26, 0.2);
+}
+carbon-player.video .control:hover {
+  background: #a4a7ab;
+}
+.collapsed carbon-waveform > .bar {
+  background: #f2f2f2bf;
+}
+.collapsed carbon-waveform > .bar.fill {
+  background: #a4a7ab;
+}
+.collapsed carbon-player time {
+  color: #f2f2f2bf;
+}
+carbon-player > .posterPlay:hover:before {
+  color: #a4a7ab;
+}
+.coverEditor .coverOverlay-option10 i {
+  background: #a4a7ab;
+}
+.overlay.option10 {
+  background: linear-gradient(#a4a7ab80, #a4a7abb2);
+}
+/* imported: '/styles/options/fontScheme.scss */
+
+body {
+  font-family: 'Karla', helvetica, arial, sans-serif;
+}
+input, textarea, button {
+  font-family: 'Karla', helvetica, arial, sans-serif;
+}
+em, .em {
+  font-style: italic;
+}
+strong, .strong {
+  font-weight: 700;
+}
+.lead {
+  letter-spacing: -0.01em;
+}
+/* imported: '/styles/options/siteWidth.scss */

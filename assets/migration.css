@@ -1,0 +1,8 @@
+/* Small compatibility and accessibility additions; original layout rules are in base.css and options.css. */
+:focus-visible { outline: 2px solid currentColor; outline-offset: 5px; }
+carbon-image > img.loaded { opacity: 1; }
+.contact-note { font-size: .8em; opacity: .7; margin-top: 1.5em; }
+.video-error { color: #efb8b8; text-align: center; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
